@@ -15,4 +15,8 @@ For ACS paper latex template is available:https://pubs.acs.org/page/4authors/sub
 For Wiley paper latex template is available: https://authorservices.wiley.com/author-resources/book-authors/prepare-your-manuscript/wiley-latex-template.html
 For Taylor & Francis paper latex template is available: https://authorservices.taylorandfrancis.com/formatting-and-templates/
 
+Hope it will reduce some pressure.
 
+Online cloud-assisted compilation tools are : 
+https://www.sharelatex.com
+https://www.writelatex.com
