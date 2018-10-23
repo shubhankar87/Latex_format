@@ -1,0 +1,168 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%  This Beamer template was created by Cameron Bracken.
+%%  Anyone can freely use or modify it for any purpose
+%%  without attribution.
+%%
+%%  Last Modified: January 9, 2009
+%%
+
+\documentclass[xcolor=x11names,compress]{beamer}
+
+%% General document %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{decorations.fractals}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\setbeamertemplate{footline}[frame number]
+
+%% Beamer Layout %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\useoutertheme[subsection=false,shadow]{miniframes}
+\useinnertheme{default}
+\usefonttheme{serif}
+\usepackage{palatino}
+%\setbeamertemplate{footline}[frame number]
+
+\usepackage{float}
+\usepackage{gensymb}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{ellipsis}
+\usepackage{textcomp}
+\usepackage{cite}
+\usepackage{graphicx}%[pdftex]
+\usepackage{subfigure}
+\usepackage{epsfig}
+\usepackage{caption}
+\usepackage{algorithm}
+%\usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+\usepackage{algpseudocode}
+\usepackage{algorithmicx}
+\usepackage{color}
+\usepackage{epstopdf}
+\usepackage{psfrag}
+\usepackage{grffile}
+\DeclareMathOperator*{\Max}{Max}
+\usepackage{setspace}
+\usepackage{amsthm}
+\newtheorem{thm}{Theorem}
+\theoremstyle{definition}
+\newtheorem{dfn}{Definition}
+\theoremstyle{remark}
+%\newtheorem{note}{Note}[section]
+\theoremstyle{plain}
+\newtheorem{lem}{Lemma}
+\newtheorem{proposition}{Proposition}
+\newtheorem{crl}{Corollary}
+\newtheorem{assump}{Assumption}
+\usepackage{xcolor,colortbl}
+\usepackage{pifont}
+\usepackage{xcolor}
+\definecolor{bostonuniversityred}{rgb}{0.8, 0.0, 0.0}
+\definecolor{burgundy}{rgb}{0.5, 0.0, 0.13}
+
+\usepackage{hhline}
+\usepackage{multirow}
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+\setbeamerfont{title like}{shape=\scshape}
+\setbeamerfont{frametitle}{shape=\scshape}
+
+\setbeamercolor*{lower separation line head}{bg=DeepSkyBlue4} 
+\setbeamercolor*{normal text}{fg=black,bg=white} 
+\setbeamercolor*{alerted text}{fg=red} 
+\setbeamercolor*{example text}{fg=black} 
+\setbeamercolor*{structure}{fg=black} 
+ 
+\setbeamercolor*{palette tertiary}{fg=black,bg=black!10} 
+\setbeamercolor*{palette quaternary}{fg=black,bg=black!10} 
+
+\renewcommand{\(}{\begin{columns}}
+\renewcommand{\)}{\end{columns}}
+\newcommand{\<}[1]{\begin{column}{#1}}
+\renewcommand{\>}{\end{column}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+\begin{document}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\title{Technical Report Writing using \LaTeX}
+%\subtitle{SUBTITLE}
+%\author{
+%	Cameron Bracken\\
+%	{\it Humboldt State University}\\
+%}
+
+\author[\vspace*{-.5cm} Department of Electronics \& Communication]{ \footnotesize{Presentation\\} \footnotesize{by\\} \normalsize{Dr. Shubhankar Majumdar} }
+\vspace*{-.6cm}
+\date{ \vspace*{-1.2cm}
+\begin{figure}[!ht]
+\centering
+\includegraphics[scale=0.3]{logo}
+\end{figure}
+\vspace{-.4cm}
+\scriptsize{Department of Electronics \& Communication\\}
+\scriptsize{National Institute of Technology Meghalaya\\} 
+\today 
+}
+
+\titlepage
+\end{frame}
+
+
+%\begin{frame}
+%\vspace*{-2.3cm} 
+%\titlepage % Print the title page as the first slide
+%\end{frame}
+
+\begin{frame}
+\frametitle{{\color{DeepSkyBlue4}Outline}} 
+\small{
+\begin{itemize}
+
+
+%
+\item Why \LaTeX?
+\item Introduction to \LaTeX
+\item Documents Structure of \LaTeX
+\item Few Basics (EXAMPLE: 1 (Simple Document) \& EXAMPLE: 2 (Two Column Document of IEEEtran class))
+\item Mathematical Equation in \LaTeX
+\item Mathematical Equation in \LaTeX (EXAMPLE: 3)
+\item Creating Tables in \LaTeX (EXAMPLE: 4 \& EXAMPLE: 5 )
+\item Importing Figures in \LaTeX (EXAMPLE: 6 \& EXAMPLE: 7 )
+\item Reference \& Citation (EXAMPLE: 8)
+\item How to write proofs of theorems (EXAMPLE: 9)
+\item How to write Algorithms (EXAMPLE: 10)
+
+\end{itemize}
+}
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATION SLIDES
+%----------------------------------------------------------------------------------------
+
+%------------------------------------------------
+\begin{frame}
+\frametitle{{\color{DeepSkyBlue4}Why \LaTeX?}} 
+\begin{enumerate}
+\item 	It's \textbf{free} and \textbf{portable}.
+\item  You can use the editor of your choice (Even MS Word). 
+\item Including \textbf{mathematical expressions} in LaTeX involves typing a few appropriate characters. By contrast, including mathematics in Word requires Equation Editor, a cumbersome and slow graphical user interface 
+\item  \textbf{Style changes are neater} in \LaTeX. \textbf{Style files for many periodicals exist}.  
+\item Almost all mathematical and scientific \textbf{notations} are easily achievable in LaTeX.
+\item \textbf{Repetitive tasks} can more easily be \textbf{automated}. 
+\item Don't bother about the \textbf{format}, concentrate on the \textbf{content}. 
+\end{enumerate}
+\end{frame}
+
+
+\end{document}
