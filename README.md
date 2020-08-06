@@ -3,10 +3,14 @@ In this repository, you will get latex codes of  presentation, poster and Resume
 
 For Windows User:
 Download the 
-ProTeXt-3.1.9-121317.exe (http://ctan.imsc.res.in/systems/windows/protext/ProTeXt-3.1.9-121317.exe)
+ProTeXt - http://mirror.ctan.org/systems/windows/protext/
 
 For Linux User (Debian (Ubuntu)/ RPM(Cent OS/RED HAT))
 https://kile.sourceforge.io
+
+Online resources 
+Overleaf - https://www.overleaf.com/
+Latex base - https://latexbase.com/d/fe42e773-52ae-4cb9-a43a-a0890eb44fe0 
 
 For IEEE paper latex template is available: http://ieeeauthorcenter.ieee.org/create-your-ieee-article/use-authoring-tools-and-ieee-article-templates/ieee-article-templates/
 For elsevier paper latex template is available: https://www.elsevier.com/authors/author-schemas/latex-instructions
